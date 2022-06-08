@@ -1,6 +1,12 @@
 import React from 'react'
-import { GoLocation } from "react-icons/go";
-import { BsFacebook, BsGithub, BsLinkedin, BsDownload } from "react-icons/bs";
+import { GoLocation, GoMail } from "react-icons/go";
+import { GiSmartphone } from "react-icons/gi";
+import {
+  BsFacebook,
+  BsGithub,
+  BsLinkedin,
+  BsFileEarmarkCheckFill,
+} from "react-icons/bs";
 // import { useTheme } from "next-themes";
 import Image from "next/image";
 const Sidebar = () => {
@@ -20,20 +26,20 @@ const Sidebar = () => {
         layout="intrinsic"
         quality="100"
       />
-      <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
+      <h3 className="my-4 mb-0 text-3xl font-medium tracking-wider font-kaushan">
         Md. <span className="text-green">Rony</span>
       </h3>
-      <p className="px-2 py-1 my-3 bg-slate-300 rounded-full dark:bg-dark-200">
-        Web Developer
+      <p className="px-2 py-1 my-3 mt-0 rounded dark:bg-dark-200 text-md font-semibold">
+        Software Engineer
       </p>
       {/* Resume */}
       <a
-        href="/assets/Sumit Dey Resume.pdf"
-        download="Sumit Dey Resume.pdf"
-        className="flex items-center justify-center px-2 py-1 my-2 bg-slate-300 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
+        target="_blank"
+        href="https://drive.google.com/file/d/1KysdX1HeqMmqRilmnUu85jik4FmfFJeo/view?usp=sharing"
+        className="flex items-center justify-center px-2 py-1 my-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-l from-green to-blue-500 focus:outline-none dark:bg-dark-200 dark:bg-black-500"
       >
-        <BsDownload className="w-4 h-4 mr-1" />
-        <span>Resume</span>
+        <BsFileEarmarkCheckFill className="w-4 h-4 mr-1 text-gray-600" />
+        <span>Check Resume</span>
       </a>
 
       {/* Socials */}
@@ -55,10 +61,15 @@ const Sidebar = () => {
         style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
       >
         <div className="flex items-center justify-center">
-          <GoLocation className="mr-2" /> <span>Kolkata,India </span>
+          <GoLocation className="mr-1" />{" "}
+          <span>Mirpur-2,Dhaka,Bangladesh </span>
         </div>
-        <p className="my-2 "> code.sumax@gmail.com </p>
-        <p className="my-2"> 8514961665 / 8640960375 </p>
+        <div className="flex items-center justify-center">
+          <GoMail className="mr-1" /> <span>mdronyb313@gmail.com </span>
+        </div>
+        <div className="flex items-center justify-center">
+          <GiSmartphone className="mr-1" /><span>+88 01792395386 </span>
+        </div>
       </div>
 
       {/* Email Button */}
@@ -70,8 +81,8 @@ const Sidebar = () => {
         Contact me
       </button>
       <button
-         //  onClick={changeTheme}
-        className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 focus:outline-none hover:scale-105 "
+        //  onClick={changeTheme}
+        className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-l from-green to-blue-500 focus:outline-none hover:scale-105 "
       >
         {/* //TODO remove bg black */}
         Change Theme
