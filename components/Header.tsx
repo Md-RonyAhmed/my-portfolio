@@ -1,14 +1,14 @@
 import React from 'react'
 import { useRouter } from "next/router";
 import Link from "next/link";
-import { useTheme } from "next-themes";
+// import { useTheme } from "next-themes";
 const Header = () => {
    const router = useRouter();
-   const { theme, setTheme } = useTheme();
+  //  const { theme, setTheme } = useTheme();
 
-   const changeTheme = () => {
-     setTheme(theme === "light" ? "dark" : "light");
-   };
+  //  const changeTheme = () => {
+  //    setTheme(theme === "light" ? "dark" : "light");
+  //  };
   return (
     <>
       <div className="navbar bg-slate-300 dark:bg-gray-900 text-black dark:text-white h-20 fixed top-0 z-50">
@@ -106,8 +106,7 @@ const Header = () => {
             </a>
           </Link>
         </div>
-        <button>
-          {/* //TODO remove bg black */}
+        {/* <button>
           <label className="swap swap-rotate">
             <input type="checkbox" onClick={changeTheme} />
 
@@ -129,7 +128,7 @@ const Header = () => {
               </svg>
             )}
           </label>
-        </button>
+        </button> */}
         <div className="flex-none gap-2 ml-4">
           <div className="form-control">
             <input
