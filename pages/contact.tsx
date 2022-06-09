@@ -1,13 +1,17 @@
+import Head from 'next/head';
 import React from 'react'
 
 const Contact = () => {
   return (
     <div className="hero min-h-screen">
+      <Head>
+        <title>Md.Rony | Contact</title>
+      </Head>
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="text-center lg:text-left">
           <h1 className="text-5xl font-bold">Send Message</h1>
           <p className="py-6">
-           If you have query? Please don't hesitate. Send me the message.
+            If you have query? Please don't hesitate. Send me the message.
           </p>
         </div>
         <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl dark:bg-base-100 bg-slate-100 shadow-custom-light">

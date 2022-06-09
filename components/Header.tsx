@@ -39,7 +39,7 @@ const Header = () => {
                   <a>Home</a>
                 </li>
               </Link>
-              <Link href="/">
+              <Link href="/blogs">
                 <li>
                   <a>Blogs</a>
                 </li>
@@ -72,7 +72,7 @@ const Header = () => {
               Home
             </a>
           </Link>
-          <Link href="/">
+          <Link href="/blogs">
             <a
               className={
                 router.pathname == "/blogs"

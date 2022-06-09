@@ -5,6 +5,7 @@ import {
   GetStaticPropsContext,
   NextPage,
 } from "next";
+import Head from "next/head";
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
 import { Service } from "../types";
@@ -14,6 +15,9 @@ const About: NextPage = () => {
 
   return (
     <div className="flex flex-col flex-grow px-6 pt-1 ">
+      <Head>
+        <title>Md.Rony | About</title>
+      </Head>
       <h6 className="my-3 text-base font-medium">
         I'm an organized, punctual, honest, and self-motivated employee, capable
         of time management and working under pressure in all environments.The

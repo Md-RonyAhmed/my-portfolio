@@ -1,9 +1,13 @@
+import Head from "next/head";
 import Bar from "../components/Bar";
 import { backend, hosting, languages, tools } from "../data";
 
 const Resume = () => {
   return (
     <div className="px-6 py-2">
+      <Head>
+        <title>Md.Rony | Resume</title>
+      </Head>
       {/* //! Education & Experience */}
       <div className="grid gap-6 md:grid-cols-2">
         <div>
@@ -34,7 +38,9 @@ const Resume = () => {
             <p className="mt-2">
               Email: info@data-transformers.com || Phone: +1 (832) 269-4474 ||
               Website:{" "}
-              <a className="link" href="https://data-transformers.com">data-transformers.com</a>
+              <a className="link" href="https://data-transformers.com">
+                data-transformers.com
+              </a>
             </p>
           </div>
         </div>
