@@ -158,8 +158,8 @@ export const projects: IProject[] = [
   {
     name: "Barakah Stock Service ",
     image_path: "https://i.ibb.co/KqywTw1/pr2.png",
-    deployed_url: "https://visual-algorithm.web.app/",
-    github_url: "https://github.com/Dey-Sumit/algorithm-visualizer",
+    deployed_url: "https://barakah-stocks.web.app/",
+    github_url: "https://github.com/Md-RonyAhmed/barakah-stock-client",
     category: ["react"],
     description:
       "An web app which shows how an algorithm (path finding or sorting) works with cool animation",
@@ -167,10 +167,10 @@ export const projects: IProject[] = [
   },
 
   {
-    name: "Dev Talks",
-    image_path: "/images/dev.jpg",
-    deployed_url: "https://dev-talks.herokuapp.com/",
-    github_url: "https://github.com/Dey-Sumit/Dev-talks",
+    name: "Tech-Tutor Service Provider",
+    image_path: "https://i.ibb.co/9Vmk1rB/pr3.png",
+    deployed_url: "https://tech-tutor-d11fb.web.app/",
+    github_url: "https://github.com/Md-RonyAhmed/tech-tutor-react-firebase",
     category: ["node", "mongo", "react"],
     description:
       "Social Media app for developers who can share project,create posts,etc...",
@@ -186,10 +186,10 @@ export const projects: IProject[] = [
   },
 
   {
-    name: "Realtime Chat App",
-    image_path: "/images/chatapp.jpg",
-    deployed_url: "https://sumit-chat.netlify.app/",
-    github_url: "https://github.com/Dey-Sumit/chat-app-socket.io-react-node",
+    name: "Niyamah Convention Center",
+    image_path: "https://i.ibb.co/1MfrFDX/pr5.png",
+    deployed_url: "https://niyamah-site.netlify.app/",
+    github_url: "https://github.com/Md-RonyAhmed/Niyamah-convention-center",
     category: ["node", "react"],
     description:
       "Basic Realtime Chat App where one can create a room can talk to each other",
@@ -197,10 +197,10 @@ export const projects: IProject[] = [
   },
 
   {
-    name: "Tweeter Clone",
-    image_path: "/images/tweetme.jpg",
-    deployed_url: "http://sumaxtweetme.pythonanywhere.com/",
-    github_url: "https://github.com/Dey-Sumit/tweetme",
+    name: "Service Provider Page",
+    image_path: "https://i.ibb.co/kKk9Vg3/pr6.png",
+    deployed_url: "https://md-ronyahmed.github.io/Idea-leader-board-site/",
+    github_url: "https://github.com/Md-RonyAhmed/Idea-leader-board-site",
     category: ["nextJs", "react"],
     description:
       "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
@@ -209,19 +209,19 @@ export const projects: IProject[] = [
 
   {
     name: "Color Classification using tf.js",
-    image_path: "/images/color.jpg",
-    deployed_url: "!#",
-    github_url: "https://github.com/Dey-Sumit/color-classification",
+    image_path: "https://i.ibb.co/pf2WDx3/pr4.png",
+    deployed_url: "https://dream-phone-store.netlify.app/",
+    github_url: "https://github.com/Md-RonyAhmed/dream-phone-search-api",
     category: ["express"],
     description:
       "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
     key_techs: ["Express", "TensorFlow.js", "Vanilla js"],
   },
   {
-    name: "YouTube using YouTube ",
-    image_path: "/images/youtubeClone.png",
-    deployed_url: "https://not-utube.web.app/",
-    github_url: "https://github.com/Dey-Sumit/youtube-clone-tutorial-up",
+    name: "Influencer e-commerce page",
+    image_path: "https://i.ibb.co/ftBxmrP/pr7.png",
+    deployed_url: "https://md-ronyahmed.github.io/influencer-ecomerce-site/",
+    github_url: "https://github.com/Md-RonyAhmed/influencer-ecomerce-site",
     category: ["express"],
     description:
       'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
@@ -235,10 +235,10 @@ export const projects: IProject[] = [
     ],
   },
   {
-    name: "Football App",
-    image_path: "/images/football.png",
-    deployed_url: "https://o-my-goal.web.app/",
-    github_url: "https://github.com/Dey-Sumit/football-app",
+    name: "Balance Calculator",
+    image_path: "https://i.ibb.co/CHW1Dz4/pr8.png",
+    deployed_url: "https://balancecalculator.netlify.app",
+    github_url: "https://github.com/Md-RonyAhmed/balance-calculator-js",
     category: ["react"],
     description:
       "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
