@@ -7,15 +7,9 @@ import {
   BsLinkedin,
   BsFileEarmarkCheckFill,
 } from "react-icons/bs";
-import { useTheme } from "next-themes";
 import Image from "next/image";
 import Link from 'next/link';
 const Sidebar = () => {
-     const { theme, setTheme } = useTheme();
-
-     const changeTheme = () => {
-       setTheme(theme === "light" ? "dark" : "light");
-     };
   return (
     <>
       <Image
@@ -44,15 +38,21 @@ const Sidebar = () => {
       </a>
 
       {/* Socials */}
-      <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full ">
-        <a href="https://www.youtube.com/channel/UClW8d1f5m0QAE_Ig024EP6A">
-          <BsFacebook className="w-8 h-8 cursor-pointer" />
+      <div className="flex justify-around w-full my-5 bg-slate-200 dark:bg-gray-800 p-5 rounded">
+        <a
+          target="_blank"
+          href="https://www.facebook.com/profile.php?id=100007569846753"
+        >
+          <BsFacebook className="w-8 h-8 cursor-pointer text-blue-600" />
         </a>
-        <a href="https://www.linkedin.com/in/sumit-dey-4a04431a9/">
-          <BsLinkedin className="w-8 h-8 cursor-pointer" />
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/md-rony-92bb62159/"
+        >
+          <BsLinkedin className="w-8 h-8 cursor-pointer text-sky-500" />
         </a>
-        <a href="https://www.instagram.com/_sumax__/">
-          <BsGithub className="w-8 h-8 cursor-pointer" />{" "}
+        <a target="_blank" href="https://github.com/Md-RonyAhmed">
+          <BsGithub className="w-8 h-8 cursor-pointer text-black" />{" "}
         </a>
       </div>
 
@@ -79,12 +79,9 @@ const Sidebar = () => {
       <button className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 hover:scale-105 focus:outline-none">
         <Link href="/contact">Contact me</Link>
       </button>
-      <button
-        onClick={changeTheme}
-        className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-l from-green to-blue-500 focus:outline-none hover:scale-105 "
-      >
+      <button className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-l from-green to-blue-500 focus:outline-none hover:scale-105 ">
         {/* //TODO remove bg black */}
-        Change Theme
+        Hire me
       </button>
     </>
   );
