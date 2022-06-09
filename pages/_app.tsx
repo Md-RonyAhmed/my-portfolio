@@ -1,12 +1,11 @@
 import Navbar from '../components/Navbar';
-import { ThemeProvider } from "next-themes";
+
 import Sidebar from '../components/Sidebar';
 import '../styles/globals.css'
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 function MyApp({ Component, pageProps }) {
   return (
-    <ThemeProvider attribute="class">
       <>
       <Header/>
         <div className="grid grid-cols-12 gap-6 px-5 my-4 pt-20 lg:mb-6 md:mb-16 sm:px-20 md:px-3 lg:px-3 xl:px-4 mb-12">
@@ -24,7 +23,6 @@ function MyApp({ Component, pageProps }) {
         </div>
         <Footer/>
       </>
-    </ThemeProvider>
   );
 }
 

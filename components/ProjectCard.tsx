@@ -23,7 +23,7 @@ const ProjectCard: FunctionComponent<{
   setShowDetail,
   showDetail,
 }) => {
-  // const [showDetail, setShowDetail] = useState(false);
+  // const [showDetail, setShowDetail] = useState(0);
 
   return (
     <div>
@@ -50,7 +50,7 @@ const ProjectCard: FunctionComponent<{
         Show Details
       </button>
 
-      {showDetail && (
+      {showDetail===id && (
         <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
           <div>
             {/* <img src={image_path} alt={name} /> */}
