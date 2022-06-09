@@ -38,9 +38,15 @@ const ProjectCard: FunctionComponent<{
         onClick={() => setShowDetail(true)}
       /> */}
       <p className="my-2 text-center">{name}</p>
+      <button
+        onClick={() => setShowDetail(true)}
+        className="my-2 text-center mx-auto w-full btn btn-sm btn-info btn-outline"
+      >
+        Show Details
+      </button>
 
       {showDetail && (
-        <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
+        <div className="absolute top-0 left-0 z-10 grid w-full h-auto md:h-2/3 p-2 text-black bg-gray-100 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
           <div>
             {/* <img src={image_path} alt={name} /> */}
 
@@ -56,13 +62,13 @@ const ProjectCard: FunctionComponent<{
                 href={github_url}
                 className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
               >
-                <AiFillGithub /> <span>Github</span>
+                <AiFillGithub /> <span>Github Repo</span>
               </a>
               <a
                 href={deployed_url}
                 className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
               >
-                <AiFillProject /> <span>Project</span>
+                <AiFillProject /> <span>Live Preview</span>
               </a>
             </div>
           </div>
@@ -75,7 +81,7 @@ const ProjectCard: FunctionComponent<{
               {key_techs.map((tech) => (
                 <span
                   key={tech}
-                  className="px-2 py-1 my-1 bg-gray-200 dark:bg-dark-200 rounde-sm"
+                  className="px-2 py-1 my-1 bg-gray-200 dark:bg-dark-200 rounded-sm"
                 >
                   {tech}
                 </span>
