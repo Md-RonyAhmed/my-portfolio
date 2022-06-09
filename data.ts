@@ -146,6 +146,7 @@ export const hosting: Skill[] = [
 
 export const projects: IProject[] = [
   {
+    id: 0,
     name: "PC Parts CO.",
     description:
       "This app shows a statistical view about corona virus over the world",
@@ -156,6 +157,7 @@ export const projects: IProject[] = [
     key_techs: ["React", "Chart.js", "Tailwind Css", "Node Js"],
   },
   {
+    id: 1,
     name: "Barakah Stock Service ",
     image_path: "https://i.ibb.co/KqywTw1/pr2.png",
     deployed_url: "https://barakah-stocks.web.app/",
@@ -167,6 +169,7 @@ export const projects: IProject[] = [
   },
 
   {
+    id: 2,
     name: "Tech-Tutor Service Provider",
     image_path: "https://i.ibb.co/9Vmk1rB/pr3.png",
     deployed_url: "https://tech-tutor-d11fb.web.app/",
@@ -186,6 +189,7 @@ export const projects: IProject[] = [
   },
 
   {
+    id: 3,
     name: "Niyamah Convention Center",
     image_path: "https://i.ibb.co/1MfrFDX/pr5.png",
     deployed_url: "https://niyamah-site.netlify.app/",
@@ -197,6 +201,7 @@ export const projects: IProject[] = [
   },
 
   {
+    id: 4,
     name: "Service Provider Page",
     image_path: "https://i.ibb.co/kKk9Vg3/pr6.png",
     deployed_url: "https://md-ronyahmed.github.io/Idea-leader-board-site/",
@@ -208,6 +213,7 @@ export const projects: IProject[] = [
   },
 
   {
+    id: 5,
     name: "Color Classification using tf.js",
     image_path: "https://i.ibb.co/pf2WDx3/pr4.png",
     deployed_url: "https://dream-phone-store.netlify.app/",
@@ -218,6 +224,7 @@ export const projects: IProject[] = [
     key_techs: ["Express", "TensorFlow.js", "Vanilla js"],
   },
   {
+    id: 6,
     name: "Influencer e-commerce page",
     image_path: "https://i.ibb.co/ftBxmrP/pr7.png",
     deployed_url: "https://md-ronyahmed.github.io/influencer-ecomerce-site/",
@@ -235,6 +242,7 @@ export const projects: IProject[] = [
     ],
   },
   {
+    id: 7,
     name: "Balance Calculator",
     image_path: "https://i.ibb.co/CHW1Dz4/pr8.png",
     deployed_url: "https://balancecalculator.netlify.app",

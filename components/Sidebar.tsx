@@ -32,6 +32,7 @@ const Sidebar = () => {
       {/* Resume */}
       <a
         target="_blank"
+        rel="noreferrer"
         href="https://drive.google.com/file/d/1KysdX1HeqMmqRilmnUu85jik4FmfFJeo/view?usp=sharing"
         className="flex items-center justify-center px-2 py-2 my-2 text-white bg-black rounded-full w-3/5 mx-auto md:w-8/12 cursor-pointer bg-gradient-to-l from-green to-blue-500 focus:outline-none dark:bg-dark-200 dark:bg-black-500"
       >
@@ -43,17 +44,26 @@ const Sidebar = () => {
       <div className="flex justify-around w-full my-5 bg-slate-200 dark:bg-gray-800 p-5 rounded">
         <a
           target="_blank"
+          rel="noreferrer"
+          aria-label="FaceBook"
           href="https://www.facebook.com/profile.php?id=100007569846753"
         >
           <BsFacebook className="w-8 h-8 cursor-pointer text-blue-600" />
         </a>
         <a
           target="_blank"
+          rel="noreferrer"
+          aria-label="Linkedin"
           href="https://www.linkedin.com/in/md-rony-92bb62159/"
         >
           <BsLinkedin className="w-8 h-8 cursor-pointer text-sky-500" />
         </a>
-        <a target="_blank" href="https://github.com/Md-RonyAhmed">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          aria-label="GitHub"
+          href="https://github.com/Md-RonyAhmed"
+        >
           <BsGithub className="w-8 h-8 cursor-pointer text-black" />{" "}
         </a>
       </div>
