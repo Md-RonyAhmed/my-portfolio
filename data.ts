@@ -45,29 +45,29 @@ export const services: Service[] = [
 ];
 
 export const languages: Skill[] = [
+   {
+     Icon: BsCircleFill,
+     name: "JavaScript",
+     level: "85",
+   },
   {
     Icon: BsCircleFill,
     name: "Python",
-    level: "45",
+    level: "40",
   },
   {
     Icon: BsCircleFill,
-    name: "Java Script",
-    level: "60",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "React Native",
+    name: "React JS",
     level: "80",
   },
   {
     Icon: BsCircleFill,
-    name: "React",
-    level: "70",
+    name: "HTML & CSS",
+    level: "88",
   },
   {
     Icon: BsCircleFill,
-    name: "Django",
+    name: "Tailwind Css",
     level: "80",
   },
   {
@@ -80,22 +80,44 @@ export const languages: Skill[] = [
 export const tools: Skill[] = [
   {
     Icon: BsCircleFill,
-    name: "Figma",
-    level: "85",
+    name: "Git",
+    level: "88",
   },
   {
     Icon: BsCircleFill,
-    name: "Photoshop",
+    name: "VS Code",
+    level: "75",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "GitHub",
+    level: "70",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Postman",
     level: "45",
   },
+];
+export const backend: Skill[] = [
   {
     Icon: BsCircleFill,
-    name: "Illustrator",
-    level: "60",
+    name: "Node JS",
+    level: "55",
   },
   {
     Icon: BsCircleFill,
-    name: "Framer",
+    name: "Express JS",
+    level: "58",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "MongoDB",
+    level: "40",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Next JS",
     level: "45",
   },
 ];

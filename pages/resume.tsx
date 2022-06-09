@@ -1,5 +1,5 @@
 import Bar from "../components/Bar";
-import { languages, tools } from "../data";
+import { backend, languages, tools } from "../data";
 
 const Resume = () => {
   return (
@@ -44,6 +44,14 @@ const Resume = () => {
           <h5 className="my-3 text-2xl font-bold">Tools & Softwares</h5>
           <div className="my-2">
             {tools.map((tool, i) => (
+              <Bar value={tool} key={i} />
+            ))}
+          </div>
+        </div>
+        <div>
+          <h5 className="my-3 mt-0 text-2xl font-bold">Familiar Technology</h5>
+          <div className="my-2">
+            {backend.map((tool, i) => (
               <Bar value={tool} key={i} />
             ))}
           </div>
