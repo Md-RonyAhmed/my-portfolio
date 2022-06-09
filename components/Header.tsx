@@ -130,7 +130,7 @@ const Header = () => {
             )}
           </label>
         </button>
-        <div className="flex-none gap-2 ml-2">
+        <div className="flex-none gap-2 ml-4">
           <div className="form-control">
             <input
               type="text"

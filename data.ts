@@ -146,10 +146,10 @@ export const hosting: Skill[] = [
 
 export const projects: IProject[] = [
   {
-    name: "COVID Tracker",
+    name: "PC Parts CO.",
     description:
       "This app shows a statistical view about corona virus over the world",
-    image_path: "/images/covid.jpg",
+    image_path: "https://i.ibb.co/0ZVyNBZ/pr1.png",
     deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
     github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
     category: ["react"],
