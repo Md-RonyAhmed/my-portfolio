@@ -32,5 +32,5 @@ module.exports = {
       boxShadow: ["dark"],
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
