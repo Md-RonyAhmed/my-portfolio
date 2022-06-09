@@ -7,8 +7,8 @@ module.exports = {
       kaushan: ["Kaushan Script"],
     },
     boxShadow: {
-      "custom-light": " 0 0 5px #313131",
-      "custom-dark": "5px 5px 10px #0a0c0e , -5px -5px 10px #14161c",
+      "custom-light": " 0 0 3px #313131",
+      "custom-dark": "1px 1px 3px #0a0c0e , -1px -1px 3px #14161c",
     },
 
     extend: {

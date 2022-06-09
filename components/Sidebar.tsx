@@ -7,20 +7,21 @@ import {
   BsLinkedin,
   BsFileEarmarkCheckFill,
 } from "react-icons/bs";
-// import { useTheme } from "next-themes";
+import { useTheme } from "next-themes";
 import Image from "next/image";
+import Link from 'next/link';
 const Sidebar = () => {
-//      const { theme, setTheme } = useTheme();
+     const { theme, setTheme } = useTheme();
 
-//      const changeTheme = () => {
-//        setTheme(theme === "light" ? "dark" : "light");
-//      };
+     const changeTheme = () => {
+       setTheme(theme === "light" ? "dark" : "light");
+     };
   return (
     <>
       <Image
         src="https://i.ibb.co/6Rjt92g/MdRony.jpg"
         alt="avatar"
-        className=" mx-auto border rounded-full "
+        className=" mx-auto border-2 border-white rounded-full "
         height="150px"
         width="150px"
         layout="intrinsic"
@@ -29,7 +30,7 @@ const Sidebar = () => {
       <h3 className="my-4 mb-0 text-3xl font-medium tracking-wider font-kaushan">
         Md. <span className="text-green">Rony</span>
       </h3>
-      <p className="px-2 py-1 my-3 mt-0 rounded dark:bg-dark-200 text-md font-semibold">
+      <p className="px-2 py-1 my-3 mt-0 rounded dark:bg-dark-200 text-md font-semibold dark:bg-black-500">
         Software Engineer
       </p>
       {/* Resume */}
@@ -68,20 +69,18 @@ const Sidebar = () => {
           <GoMail className="mr-1" /> <span>mdronyb313@gmail.com </span>
         </div>
         <div className="flex items-center justify-center">
-          <GiSmartphone className="mr-1" /><span>+88 01792395386 </span>
+          <GiSmartphone className="mr-1" />
+          <span>+88 01792395386 </span>
         </div>
       </div>
 
       {/* Email Button */}
 
-      <button
-        className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 hover:scale-105 focus:outline-none"
-        onClick={() => window.open("mailto:mdronyb313@gmail.com")}
-      >
-        Contact me
+      <button className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 hover:scale-105 focus:outline-none">
+        <Link href="/contact">Contact me</Link>
       </button>
       <button
-        //  onClick={changeTheme}
+        onClick={changeTheme}
         className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-l from-green to-blue-500 focus:outline-none hover:scale-105 "
       >
         {/* //TODO remove bg black */}
