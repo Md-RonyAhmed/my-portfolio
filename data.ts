@@ -150,14 +150,14 @@ export const projects: IProject[] = [
     description:
       "This app shows a statistical view about corona virus over the world",
     image_path: "https://i.ibb.co/0ZVyNBZ/pr1.png",
-    deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
-    github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
+    deployed_url: "https://pc-parts-co.web.app/",
+    github_url: "https://github.com/Md-RonyAhmed/pc-parts-co-client",
     category: ["react"],
-    key_techs: ["React", "Chart.js", "Material UI"],
+    key_techs: ["React", "Chart.js", "Tailwind Css", "Node Js"],
   },
   {
-    name: "Algorithm Visualizer",
-    image_path: "/images/algoVisual.png",
+    name: "Barakah Stock Service ",
+    image_path: "https://i.ibb.co/KqywTw1/pr2.png",
     deployed_url: "https://visual-algorithm.web.app/",
     github_url: "https://github.com/Dey-Sumit/algorithm-visualizer",
     category: ["react"],
@@ -201,7 +201,7 @@ export const projects: IProject[] = [
     image_path: "/images/tweetme.jpg",
     deployed_url: "http://sumaxtweetme.pythonanywhere.com/",
     github_url: "https://github.com/Dey-Sumit/tweetme",
-    category: ["django", "react"],
+    category: ["nextJs", "react"],
     description:
       "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
     key_techs: ["React", "Django", "Django REST API"],
