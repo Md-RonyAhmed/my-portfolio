@@ -121,6 +121,28 @@ export const backend: Skill[] = [
     level: "45",
   },
 ];
+export const hosting: Skill[] = [
+  {
+    Icon: BsCircleFill,
+    name: "AWS",
+    level: "30",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Heroku",
+    level: "75",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Vercel",
+    level: "40",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Netlify",
+    level: "65",
+  },
+];
 
 export const projects: IProject[] = [
   {

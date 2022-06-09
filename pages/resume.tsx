@@ -1,5 +1,5 @@
 import Bar from "../components/Bar";
-import { backend, languages, tools } from "../data";
+import { backend, hosting, languages, tools } from "../data";
 
 const Resume = () => {
   return (
@@ -12,10 +12,9 @@ const Resume = () => {
             <h5 className="my-2 text-xl font-bold">
               Computer Science Engineering
             </h5>
-            <p className="font-semibold">Academy of Technology (2017-2021)</p>
+            <p className="font-semibold">Daffodil International University (2018-2022)</p>
             <p className="my-3">
-              I am currently pursuing B.tech in Computer Science Engineering
-              from Academy of Technology
+              I have completed my Bsc in Computer Science Engineering with cgpa 3.74 out of 4.00 
             </p>
           </div>
         </div>
@@ -30,7 +29,7 @@ const Resume = () => {
       </div>
 
       {/*Languages & Tools */}
-      <div className="grid gap-9 md:grid-cols-2">
+      <div className="grid gap-8 md:grid-cols-2">
         <div>
           <h5 className="my-3 text-2xl font-bold">Language & Framework</h5>
           <div className="my-2">
@@ -52,6 +51,14 @@ const Resume = () => {
           <h5 className="my-3 mt-0 text-2xl font-bold">Familiar Technology</h5>
           <div className="my-2">
             {backend.map((tool, i) => (
+              <Bar value={tool} key={i} />
+            ))}
+          </div>
+        </div>
+        <div>
+          <h5 className="my-3 mt-0 text-2xl font-bold">Deployed</h5>
+          <div className="my-2 pb-4">
+            {hosting.map((tool, i) => (
               <Bar value={tool} key={i} />
             ))}
           </div>
