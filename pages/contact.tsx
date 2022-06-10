@@ -13,7 +13,7 @@ const Contact = () => {
           If you have query? Please do not hesitate. Send me the message.
         </p>
       </div>
-      <div className="md:w-1/2 lg:w-2/3 w-4/5 mx-auto dark:bg-base-100 bg-slate-100 shadow-custom-light rounded-md mb-10">
+      <div className="md:w-1/2 lg:w-2/3 w-5/6 mx-auto dark:bg-base-100 bg-slate-100 shadow-custom-light rounded-md mb-10">
         <div className="card-body">
           <div className="form-control">
             <label className="label">
@@ -42,10 +42,10 @@ const Contact = () => {
             <textarea
               name=""
               id=""
-              cols={50}
-              rows={20}
+              cols={15}
+              rows={5}
               placeholder="Enter your message"
-              className="input input-bordered bg-transparent"
+              className="textarea textarea-bordered bg-transparent"
             ></textarea>
           </div>
 

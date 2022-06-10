@@ -1,10 +1,33 @@
-import { RiComputerLine } from "react-icons/ri";
-import { FaServer } from "react-icons/fa";
-import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
+import { RiComputerLine, RiReactjsFill } from "react-icons/ri";
+import {
+  FaServer,
+  FaNodeJs,
+  FaAws,
+  FaPython,
+  FaCss3Alt,
+  FaBootstrap,
+} from "react-icons/fa";
+import {
+  AiOutlineAntDesign,
+  AiOutlineApi,
+  AiFillHtml5,
+  AiOutlineGithub,
+} from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
+import {
+  SiTailwindcss,
+  SiVisualstudio,
+  SiPostman,
+  SiHeroku,
+  SiVercel,
+  SiNetlify,
+  SiExpress,
+  SiMongodb,
+  SiTypescript,
+} from "react-icons/si";
+import { TbBrandJavascript, TbBrandNextjs } from "react-icons/tb";
+import { DiGit } from "react-icons/di";
 import { IProject, Service, Skill } from "./types";
-
-import { BsCircleFill } from "react-icons/bs";
 
 export const services: Service[] = [
   {
@@ -46,32 +69,37 @@ export const services: Service[] = [
 
 export const languages: Skill[] = [
   {
-    Icon: BsCircleFill,
+    Icon: TbBrandJavascript,
     name: "JavaScript",
     level: "85",
   },
   {
-    Icon: BsCircleFill,
+    Icon: FaPython,
     name: "Python",
     level: "40",
   },
   {
-    Icon: BsCircleFill,
+    Icon: RiReactjsFill,
     name: "React JS",
     level: "80",
   },
   {
-    Icon: BsCircleFill,
-    name: "HTML & CSS",
+    Icon: AiFillHtml5,
+    name: "HTML5",
+    level: "93",
+  },
+  {
+    Icon: FaCss3Alt,
+    name: "CSS3",
     level: "88",
   },
   {
-    Icon: BsCircleFill,
+    Icon: SiTailwindcss,
     name: "Tailwind Css",
     level: "80",
   },
   {
-    Icon: BsCircleFill,
+    Icon: FaBootstrap,
     name: "Bootstrap",
     level: "80",
   },
@@ -79,66 +107,71 @@ export const languages: Skill[] = [
 
 export const tools: Skill[] = [
   {
-    Icon: BsCircleFill,
+    Icon: DiGit,
     name: "Git",
     level: "88",
   },
   {
-    Icon: BsCircleFill,
+    Icon: SiVisualstudio,
     name: "VS Code",
     level: "75",
   },
   {
-    Icon: BsCircleFill,
+    Icon: AiOutlineGithub,
     name: "GitHub",
     level: "70",
   },
   {
-    Icon: BsCircleFill,
+    Icon: SiPostman,
     name: "Postman",
     level: "45",
   },
 ];
 export const backend: Skill[] = [
   {
-    Icon: BsCircleFill,
+    Icon: FaNodeJs,
     name: "Node JS",
     level: "55",
   },
   {
-    Icon: BsCircleFill,
+    Icon: SiExpress,
     name: "Express JS",
     level: "58",
   },
   {
-    Icon: BsCircleFill,
+    Icon: SiMongodb,
     name: "MongoDB",
-    level: "49",
+    level: "47",
   },
   {
-    Icon: BsCircleFill,
+    Icon: TbBrandNextjs,
     name: "Next JS",
     level: "45",
+  },
+  {
+    Icon: SiTypescript,
+    name: "TypeScript",
+    level: "43",
   },
 ];
 export const hosting: Skill[] = [
   {
-    Icon: BsCircleFill,
+    Icon: FaAws,
     name: "AWS",
     level: "45",
   },
   {
-    Icon: BsCircleFill,
+    Icon: SiHeroku,
     name: "Heroku",
     level: "75",
   },
   {
-    Icon: BsCircleFill,
+    Icon: SiVercel,
     name: "Vercel",
     level: "40",
   },
   {
-    Icon: BsCircleFill,
+    Icon: SiNetlify,
     name: "Netlify",
     level: "65",
   },

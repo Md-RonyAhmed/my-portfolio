@@ -3,7 +3,7 @@ import { FunctionComponent } from "react";
 import { Skill } from "../types";
 
 const Bar: FunctionComponent<{ value: Skill }> = ({
-  value: { Icon, level, name },
+  value: { Icon,level, name },
 }) => {
   const bar_width = `${level}%`;
   return (
@@ -14,7 +14,7 @@ const Bar: FunctionComponent<{ value: Skill }> = ({
           width: bar_width,
         }}
       >
-        <Icon className="mr-3" /> {name}
+        <Icon className="mr-3 font-extrabold"/> {name}
       </div>
     </div>
   );
