@@ -191,7 +191,7 @@ export const projects: IProject[] = [
     description: [
       "It is a fully functional warehouse management web application where users can stock and manage products.",
       "CRUD operations, firebase authentication, products management, etc.",
-      "Fully Responsive for desktop, and mobile devices."
+      "Fully Responsive for desktop, and mobile devices.",
     ],
     key_techs: [
       "React",
@@ -207,21 +207,28 @@ export const projects: IProject[] = [
   {
     id: 2,
     name: "Tech-Tutor Service Provider",
-    image_path: ["https://i.ibb.co/9Vmk1rB/pr3.png"],
+    image_path: [
+      "https://i.ibb.co/9Vmk1rB/pr3.png",
+      "https://i.ibb.co/NYFX8yM/pr31.png",
+      "https://i.ibb.co/z8Thm40/pr32.png",
+      "https://i.ibb.co/9ZnHVgs/pr33.png",
+      "https://i.ibb.co/7gsSVFs/pr34.png",
+    ],
     deployed_url: "https://tech-tutor-d11fb.web.app/",
     github_url: "https://github.com/Md-RonyAhmed/tech-tutor-react-firebase",
     category: ["node", "mongo", "react"],
     description: [
-      "Social Media app for developers who can share project,create posts,etc...",
+      "It is a React JS fully functional tutor service provider web application where users can enroll and manage tutor service.",
+      "API integration, firebase authentication, etc.",
+      "Fully Responsive for desktop, and mobile devices.",
     ],
     key_techs: [
       "React",
-      "Redux",
-      "Node",
-      "Express",
-      "Mongo",
+      "Tailwind",
+      "Firebase",
+      "React Router",
+      "Axios",
       "REST API",
-      "Bootstrap",
     ],
   },
 
