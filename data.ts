@@ -45,11 +45,11 @@ export const services: Service[] = [
 ];
 
 export const languages: Skill[] = [
-   {
-     Icon: BsCircleFill,
-     name: "JavaScript",
-     level: "85",
-   },
+  {
+    Icon: BsCircleFill,
+    name: "JavaScript",
+    level: "85",
+  },
   {
     Icon: BsCircleFill,
     name: "Python",
@@ -148,35 +148,72 @@ export const projects: IProject[] = [
   {
     id: 0,
     name: "PC Parts CO.",
-    description:
-      "This app shows a statistical view about corona virus over the world",
-    image_path: "https://i.ibb.co/0ZVyNBZ/pr1.png",
+    description: [
+      "It is a fully functional manufacturer web application where users can buy and manage PC parts.",
+      "CRUD operations, payment gateway, firebase authentication, JWT implementation, admin panel, etc.",
+      "Fully Responsive for desktop, and mobile devices.",
+    ],
+    image_path: [
+      "https://i.ibb.co/0ZVyNBZ/pr1.png",
+      "https://i.ibb.co/M1SzJtT/pr12.png",
+      "https://i.ibb.co/dQFKXqm/pr13.png",
+      "https://i.ibb.co/n6dxdyq/pr14.png",
+      "https://i.ibb.co/m83D40q/pr15.png",
+    ],
     deployed_url: "https://pc-parts-co.web.app/",
     github_url: "https://github.com/Md-RonyAhmed/pc-parts-co-client",
     category: ["react"],
-    key_techs: ["React", "Chart.js", "Tailwind Css", "Node Js"],
+    key_techs: [
+      "React",
+      "Express",
+      "Tailwind",
+      "Node",
+      "MongoDB",
+      "React Router",
+      "JWT",
+      "Firebase",
+      "Axios",
+    ],
   },
   {
     id: 1,
     name: "Barakah Stock Service ",
-    image_path: "https://i.ibb.co/KqywTw1/pr2.png",
+    image_path: [
+      "https://i.ibb.co/KqywTw1/pr2.png",
+      "https://i.ibb.co/fX9zC0w/pr22.png",
+      "https://i.ibb.co/6sShcLP/pr23.png",
+      "https://i.ibb.co/s97b2Gr/pr24.png",
+      "https://i.ibb.co/VMVT9V4/pr25.png",
+    ],
     deployed_url: "https://barakah-stocks.web.app/",
     github_url: "https://github.com/Md-RonyAhmed/barakah-stock-client",
     category: ["react"],
-    description:
-      "An web app which shows how an algorithm (path finding or sorting) works with cool animation",
-    key_techs: ["React", "firebase", "Framer Motion"],
+    description: [
+      "It is a fully functional warehouse management web application where users can stock and manage products.",
+      "CRUD operations, firebase authentication, products management, etc.",
+      "Fully Responsive for desktop, and mobile devices."
+    ],
+    key_techs: [
+      "React",
+      "Firebase",
+      "Node",
+      "Express",
+      "MongoDB",
+      "Axios",
+      "React Router",
+    ],
   },
 
   {
     id: 2,
     name: "Tech-Tutor Service Provider",
-    image_path: "https://i.ibb.co/9Vmk1rB/pr3.png",
+    image_path: ["https://i.ibb.co/9Vmk1rB/pr3.png"],
     deployed_url: "https://tech-tutor-d11fb.web.app/",
     github_url: "https://github.com/Md-RonyAhmed/tech-tutor-react-firebase",
     category: ["node", "mongo", "react"],
-    description:
+    description: [
       "Social Media app for developers who can share project,create posts,etc...",
+    ],
     key_techs: [
       "React",
       "Redux",
@@ -191,47 +228,51 @@ export const projects: IProject[] = [
   {
     id: 3,
     name: "Niyamah Convention Center",
-    image_path: "https://i.ibb.co/1MfrFDX/pr5.png",
+    image_path: ["https://i.ibb.co/1MfrFDX/pr5.png"],
     deployed_url: "https://niyamah-site.netlify.app/",
     github_url: "https://github.com/Md-RonyAhmed/Niyamah-convention-center",
     category: ["node", "react"],
-    description:
+    description: [
       "Basic Realtime Chat App where one can create a room can talk to each other",
+    ],
     key_techs: ["React", "Node", "Express", "Socket", "Bootstrap"],
   },
 
   {
     id: 4,
     name: "Service Provider Page",
-    image_path: "https://i.ibb.co/kKk9Vg3/pr6.png",
+    image_path: ["https://i.ibb.co/kKk9Vg3/pr6.png"],
     deployed_url: "https://md-ronyahmed.github.io/Idea-leader-board-site/",
     github_url: "https://github.com/Md-RonyAhmed/Idea-leader-board-site",
     category: ["nextJs", "react"],
-    description:
+    description: [
       "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
+    ],
     key_techs: ["React", "Django", "Django REST API"],
   },
 
   {
     id: 5,
     name: "Color Classification using tf.js",
-    image_path: "https://i.ibb.co/pf2WDx3/pr4.png",
+    image_path: ["https://i.ibb.co/pf2WDx3/pr4.png"],
     deployed_url: "https://dream-phone-store.netlify.app/",
     github_url: "https://github.com/Md-RonyAhmed/dream-phone-search-api",
     category: ["express"],
-    description:
+    description: [
       "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
+    ],
     key_techs: ["Express", "TensorFlow.js", "Vanilla js"],
   },
   {
     id: 6,
     name: "Influencer e-commerce page",
-    image_path: "https://i.ibb.co/ftBxmrP/pr7.png",
+    image_path: ["https://i.ibb.co/ftBxmrP/pr7.png"],
     deployed_url: "https://md-ronyahmed.github.io/influencer-ecomerce-site/",
     github_url: "https://github.com/Md-RonyAhmed/influencer-ecomerce-site",
     category: ["express"],
-    description:
+    description: [
       'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
+    ],
     key_techs: [
       "React",
       "Redux",
@@ -244,12 +285,13 @@ export const projects: IProject[] = [
   {
     id: 7,
     name: "Balance Calculator",
-    image_path: "https://i.ibb.co/CHW1Dz4/pr8.png",
+    image_path: ["https://i.ibb.co/CHW1Dz4/pr8.png"],
     deployed_url: "https://balancecalculator.netlify.app",
     github_url: "https://github.com/Md-RonyAhmed/balance-calculator-js",
     category: ["react"],
-    description:
+    description: [
       "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
+    ],
     key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
   },
 ];
