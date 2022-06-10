@@ -151,7 +151,7 @@ export const backend: Skill[] = [
   {
     Icon: SiTypescript,
     name: "TypeScript",
-    level: "43",
+    level: "45",
   },
 ];
 export const hosting: Skill[] = [
