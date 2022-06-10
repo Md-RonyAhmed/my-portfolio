@@ -42,7 +42,22 @@ const ProjectCard: FunctionComponent<{
         className="cursor-pointer"
         onClick={() => setShowDetail(true)}
       /> */}
-      <p className="my-2 text-center">{name}</p>
+      <p className="my-2 text-center text-xl ">{name}</p>
+      <p className="my-2 text-center">{description[0]?.slice(0,45) }...</p>
+      <div className="flex justify-center my-4 space-x-1">
+        <a
+          href={github_url}
+          className="flex items-center px-2 mx-4 py-2 rounded-md space-x-1 text-base bg-gray-300 dark:bg-dark-200"
+        >
+          <AiFillGithub /> <span>Github</span>
+        </a>
+        <a
+          href={deployed_url}
+          className="flex items-center px-2 py-2 space-x-1 rounded-md text-base bg-gray-300 dark:bg-dark-200"
+        >
+          <AiFillProject /> <span>Live Preview</span>
+        </a>
+      </div>
       <button
         onClick={() => setShowDetail(id)}
         className="my-2 text-center mx-auto w-full btn btn-sm btn-info btn-outline"
