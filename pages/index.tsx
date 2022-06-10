@@ -17,7 +17,7 @@ const About: NextPage = () => {
     <>
       {" "}
       <Head>
-        <title>Md.Rony | About</title>
+        <title>Md.Rony | Home</title>
       </Head>
       <div className="flex flex-col flex-grow px-6 pt-1 ">
         <h6 className="my-3 text-base font-medium">
