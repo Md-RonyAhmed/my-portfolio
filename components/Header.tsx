@@ -51,8 +51,8 @@ const Header = () => {
               </Link>
             </ul>
           </div>
-          <div className="my-4 mb-4 ml-2 text-3xl font-medium tracking-wider font-kaushan">
-            Md. <span className="text-green">Rony</span>
+          <div className="my-4 mb-4 ml-2 text-xl md:text-2xl lg:text-2xl font-medium tracking-wider font-kaushan">
+            Md. <span className="text-green-600">Rony</span>
           </div>
         </div>
         <div className="navbar-start hidden lg:block md:block">

@@ -113,7 +113,7 @@ export const backend: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "MongoDB",
-    level: "40",
+    level: "49",
   },
   {
     Icon: BsCircleFill,
@@ -125,7 +125,7 @@ export const hosting: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "AWS",
-    level: "30",
+    level: "45",
   },
   {
     Icon: BsCircleFill,

@@ -7,7 +7,7 @@ const Contact = () => {
       <Head>
         <title>Md.Rony | Contact</title>
       </Head>{" "}
-      <div className="text-center mt-6 mb-0">
+      <div className="text-center mt-6 mb-0 px-2">
         <h1 className="text-3xl font-bold">Send Message</h1>
         <p className="py-3">
           If you have query? Please do not hesitate. Send me the message.
