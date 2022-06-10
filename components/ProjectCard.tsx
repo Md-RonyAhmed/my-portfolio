@@ -14,7 +14,6 @@ const ProjectCard: FunctionComponent<{
     id,
     name,
     image_path,
-    category,
     deployed_url,
     description,
     github_url,
